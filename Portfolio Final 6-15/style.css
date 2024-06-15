@@ -1,0 +1,111 @@
+/*
+Fonts
+
+.inria-serif-light {
+  font-family: "Inria Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+*/
+
+
+body {
+    margin:0px;
+}
+
+nav ul {
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    height: 110px; 
+    margin: 0px;
+    background-color:#FCCDE7;}
+
+nav li {
+    display: flex;
+    font-family: "Inria Serif";
+    color: #020f59;
+    font: size 18px;
+    list-style:none; color-interpolation-filters: ;
+    padding: 10px;
+    border-radius: 25%;
+    background-color: #FF82C5;
+    width: 19;
+    height: 4px;
+    border: 2px solid #830AAD;
+    padding: 20px;
+    margin: 20px;
+    position right: 50%;
+
+}
+
+.active {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+aside {
+    display: flex;
+    width: 314px;
+}
+
+.square_1 {
+    background-color: rgb(140, 3, 78, 0.4);
+    width: 150px;
+    height:952px;
+    z-index: -10px;
+}
+
+.square_2 {
+    background-color: rgb(2, 15, 89, 0.3);
+    width: 80px;
+    height:952px;
+    z-index: 60;
+    margin-right:10px;
+    margin-left: 30px;
+
+}
+
+.square_margin {
+    margin-right:-60px;
+    z-index: 70;
+    margin-left:-45px;
+}
+.square_3{
+background-color: rgb(2, 15, 89, 0.1);
+width: 60px;
+height:952px;
+z-index:100;
+margin-right:-100px;
+}
+
+#content {
+    display: flex;
+}
+
+.bio {
+    font-family: "Inria Serif", serif;
+    display: flex;
+
+}
+
+.bio img {
+    align-self:flex-start;
+}
+
+h1 {
+    
+    font-size:25px;
+    font-weight: bold;
+}
+
+.bio h2 {
+    font-size:21px;
+    font-weight: bold;
+}
+
+.bio p {
+    font-size: 18px;
+    width: 835px;
+}
